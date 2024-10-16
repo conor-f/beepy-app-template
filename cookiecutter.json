@@ -1,0 +1,10 @@
+{
+    "project_name": "Template App",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Author",
+    "author_email": "author email",
+    "version": "0.1.0",
+    "description": "A template repo for beepy apps.",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/author/template-app"
+}

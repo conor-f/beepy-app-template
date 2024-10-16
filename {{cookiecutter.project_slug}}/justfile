@@ -1,0 +1,17 @@
+list:
+    @just --list
+
+# TODO: Make these both work without relying on pip!
+beepy-install:
+    @python -m pip install {{ cookiecutter.project_slug }}
+
+beepy-remove:
+    @python -m pip uninstall {{ cookiecutter.project_slug }}
+
+run:
+    @poetry run {{ cookiecutter.project_slug }}
+
+# Initialize the application
+init:
+    poetry install
+    echo "Application initialized successfully."
