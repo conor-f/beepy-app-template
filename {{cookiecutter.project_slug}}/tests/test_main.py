@@ -1,5 +1,5 @@
-import pytest
 from {{cookiecutter.project_slug}}.main import TemplateApp
+
 
 def test_sample_add_method():
     app = TemplateApp()

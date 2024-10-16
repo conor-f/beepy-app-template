@@ -1,9 +1,6 @@
-from textual.binding import Binding
 from textual.app import App, ComposeResult
-from textual.widgets import (
-    Footer,
-    Label,
-)
+from textual.binding import Binding
+from textual.widgets import Footer, Label
 
 
 class TemplateApp(App):
@@ -20,6 +17,7 @@ class TemplateApp(App):
 
     def sample_add_method(self, a: int, b: int) -> int:
         return a + b
+
 
 def main() -> None:
     TemplateApp().run()

@@ -36,4 +36,17 @@ just beepy-remove
 
 ## License
 
-This project is licensed under the {{ cookiecutter.license }} license.
+This project is licensed under the GPLv3 license.
+
+## Pre-commit Hooks
+
+This template includes pre-commit hooks for linting, formatting, and type-checking.
+
+The hooks will run automatically on every commit, applying the specified checks and auto-formatting without asking for confirmation.
+
+The pre-commit configuration includes:
+- Black (code formatting)
+- isort (import sorting)
+- Flake8 (linting)
+- MyPy (type checking)
+- Various file checks (trailing whitespace, YAML validation, etc.)

@@ -22,6 +22,6 @@ with the tag `beepy-app` in order for it to appear in the app store.
 
 - [x] Basic template with `bapp-details.json` and working `justfile`
 - [x] Sample application using `textual` for UI layout
-- [ ] Pre-commit hooks for linting, type-checking, etc
-- [ ] Basic tests scaffolding
-- [ ] CI/CD with Github Actions for testing/deploying to PyPi
+- [x] Pre-commit hooks for linting, type-checking, etc
+- [x] Basic tests scaffolding
+- [x] CI/CD with Github Actions for testing/deploying to PyPi

@@ -5,6 +5,5 @@
     "author_email": "author email",
     "version": "0.1.0",
     "description": "A template repo for beepy apps.",
-    "license": "GPL-3.0-or-later",
     "homepage": "https://github.com/author/template-app"
 }
