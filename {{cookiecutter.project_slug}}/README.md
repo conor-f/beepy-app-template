@@ -2,41 +2,32 @@
 
 {{ cookiecutter.description }}
 
-## Installation
 
-To install the application, run:
+## Project Initialization/Quickstart
 
-```bash
-just beepy-install
+To init this project, after running the cookiecutter:
+
+```
+$ git init
+$ just init
+$ just test
+$ just run
+$ git add * .*
+$ git commit -am "Initial commit."
+$ git branch -M main
+$ git remote add origin git@github.com:{{ cookiecutter.author_name }}/{{ cookiecutter.project_name }}.git  # Note this may need to be modified based on your Github username/repo name.
+$ git push -u origin main
 ```
 
-## Usage
+Don't forget to add your PyPi secrets to your github repo under `PYPI_API_TOKEN`.
 
-To run the application, use:
 
-```bash
-just run
-```
-
-## Development
-
-To set up the development environment, initialize the application with:
-
-```bash
-just init
-```
-
-## Uninstallation
-
-To remove the application, run:
-
-```bash
-just beepy-remove
-```
+When you're ready for this application to appear on the `bapp-store`, add the `beepy-app` as a topic/tag to your Github repo.
 
 ## License
 
 This project is licensed under the GPLv3 license.
+
 
 ## Pre-commit Hooks
 
