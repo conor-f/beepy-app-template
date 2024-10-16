@@ -18,6 +18,8 @@ class TemplateApp(App):
     def on_mount(self) -> None:
         pass
 
+    def sample_add_method(self, a: int, b: int) -> int:
+        return a + b
 
 def main() -> None:
     TemplateApp().run()

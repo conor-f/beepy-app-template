@@ -11,6 +11,10 @@ beepy-remove:
 run:
     @poetry run {{ cookiecutter.project_slug }}
 
+# Run the tests
+test:
+    @poetry run pytest tests
+
 # Initialize the application
 init:
     poetry install
